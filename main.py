@@ -4,46 +4,54 @@ yellow = '\033[93m'
 green = '\033[92m'
 red = '\033[91m'
 b = '\033[1m'
+# def banner():
+
+print( green+b+""" 
+
+         ░█████╗░░░░░░░████████╗░█████╗░░█████╗░██╗░░░░░
+         ██╔══██╗░░░░░░╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░
+         ███████║█████╗░░░██║░░░██║░░██║██║░░██║██║░░░░░
+         ██╔══██║╚════╝░░░██║░░░██║░░██║██║░░██║██║░░░░░
+         ██║░░██║░░░░░░░░░██║░░░╚█████╔╝╚█████╔╝███████╗
+         ╚═╝░░╚═╝░░░░░░░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝
+         
+ 
+                   Coded  By Asif lone
+                         
+""")
+# print(banner())
+
 def menu():
 
-    print( green+b+""" 
 
-░█████╗░░░░░░░████████╗░█████╗░░█████╗░██╗░░░░░
-██╔══██╗░░░░░░╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░
-███████║█████╗░░░██║░░░██║░░██║██║░░██║██║░░░░░
-██╔══██║╚════╝░░░██║░░░██║░░██║██║░░██║██║░░░░░
-██║░░██║░░░░░░░░░██║░░░╚█████╔╝╚█████╔╝███████╗
-╚═╝░░╚═╝░░░░░░░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝
-Coded  By Asif lone
- FOR TERMUX!
-instagram : https://www.instagram.com/asiflone22/?hl=en
-twitter : https://twitter.com/Asiflone22
+          print(red + b + """ 
+                     FOR TERMUX!
+       || ==========================================||
+       ||       Hacking with Android.               ||
+       || ------------------------------------------||
+       ||      1. Install Nmap                      ||
+       ||      2. Install Hydra                     ||
+       ||      3. Install SQLMap                    ||
+       ||      4. Install Metasploit                ||
+       ||      5. Install ngrok                     ||
+       ||      6. Install Kali Nethunter            ||
+       ||      7. Install angryFuzzer               ||
+       ||      8. Install Red_Hawk                  ||
+       ||      9. Install Weeman                    ||
+       ||      10. Install IPGeoLocationmain        ||
+       ||      11. Install Cupp                     ||
+       ||      12. Instagram Bruteforcer            ||
+       ||      13. Twitter Bruteforcer              ||
+       ||      14. Install Ubuntu                   ||
+       ||      15. Install Fedora                   ||
+       ||      16. Install viSQL                    ||
+       ||      17. Install Hash-Buster              ||
+       ||      18. Install D-TECT                   ||
+       ||      19. Install routersploit             ||
+       ----------------------------------------------
+             99. Exit
+         ==========================================
 
-==========================================
- Hacking with Android.
-------------------------------------------
-1. Install Nmap 
-2. Install Hydra
-3. Install SQLMap
-4. Install Metasploit
-5. Install ngrok
-6. Install Kali Nethunter
-7. Install angryFuzzer
-8. Install Red_Hawk
-9. Install Weeman
-10. Install IPGeoLocation
-11. Install Cupp
-12. Instagram Bruteforcer (instahack)
-13. Twitter Bruteforcer   (TwitterSniper)
-14. Install Ubuntu
-15. Install Fedora
-16. Install viSQL
-17. Install Hash-Buster
-18. Install D-TECT
-19. Install routersploit
-------------------------------------------
-99. Exit
-==========================================
 """)
 
 loop = True
@@ -59,7 +67,7 @@ while loop:
         print("================================")
         if hm == "y":
             print("========================================================")
-            print(" You have to wait...")
+            print(" Please wait...")
             print("Because this will take a long time.")
             print("========================================================")
             os.system("pkg update")
@@ -453,5 +461,6 @@ while loop:
             else:
                 break
     elif what == "99":
-        print("Best of luck.")
+        print("Thanks for using")
         break
+
