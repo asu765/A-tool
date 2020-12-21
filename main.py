@@ -25,9 +25,9 @@ def menu():
 
 
           print(red + b + """ 
-                     FOR TERMUX!
+                     FOR TERMUX....
        || ==========================================||
-       ||       Hacking with Android.               ||
+       ||       Hacking with Android.......         ||
        || ------------------------------------------||
        ||      1. Install Nmap                      ||
        ||      2. Install Hydra                     ||
