@@ -12,13 +12,13 @@ A tool to download all useful hacking tools.
   
 ## Installation 
 
-Install my-project with npm
+Install A-Tool
 
 ```bash 
 git clone https://github.com/asu765/A-tool
-cd toolss
-chmod +x Tools.py
-python Tools.py
+cd A-tool
+chmod +x  main.py
+python main.py
 ```
     
 ## Feedback
