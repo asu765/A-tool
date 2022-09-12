@@ -32,7 +32,7 @@ def menu():
        ||      1. Install Nmap                      ||
        ||      2. Install Hydra                     ||
        ||      3. Install SQLMap                    ||
-       ||      4. Install Metasploit                ||
+       ||      4. Install Metasploit_no             ||
        ||      5. Install ngrok                     ||
        ||      6. Install Kali Nethunter            ||
        ||      7. Install angryFuzzer               ||
@@ -213,24 +213,25 @@ while loop:
             menu()
         else:
             break
-    elif what == "4":
-        os.system("pkg install -y wget")
-        os.system("cd /data/data/com.termux/files/home && wget https://Auxilus.github.io/metasploit.sh")
-        os.system("cd /data/data/com.termux/files/home && bash metasploit.sh")
-        os.system("cd /data/data/com.termux/files/home && cd metasploit-framework")
-        os.system("cd /data/data/com.termux/files/home && gem install bundle --pre")
-        os.system("cd /data/data/com.termux/files/home && bundle config build.nokogiri --use-system-libraries")
-        os.system("cd /data/data/com.termux/files/home && bundle install")
-        os.system("cd /data/data/com.termux/files/home")
-        print("====================================")
-        print(" Metasploit installed successfully :)")
-        print(" Type 'msfconsole' to start.")
-        print("====================================")
-        rmenu = input(" Back to Menu? (y/n): ")
-        if rmenu == "y":
-            menu()
-        else:
-            break
+    #elif what == "4":
+        #os.system("pkg install -y wget")
+        #os.system("cd /data/data/com.termux/files/home && wget https://Auxilus.github.io/metasploit.sh")
+        #os.system("cd /data/data/com.termux/files/home && bash metasploit.sh")
+        #os.system("cd /data/data/com.termux/files/home && cd metasploit-framework")
+        #os.system("cd /data/data/com.termux/files/home && gem install bundle --pre")
+        #os.system("cd /data/data/com.termux/files/home && bundle config build.nokogiri --use-system-libraries")
+        #os.system("cd /data/data/com.termux/files/home && bundle install")
+        #os.system("cd /data/data/com.termux/files/home")
+        #print("====================================")
+        #print(" Metasploit installed successfully :)")
+        #print(" Type 'msfconsole' to start.")
+        #print("====================================")
+        #rmenu = input(" Back to Menu? (y/n): ")
+        #if rmenu == "y":
+            #menu()
+        #else:
+            #break
+         #metasploit не працює
     elif what == "5":
         os.system("pkg update -y")
         os.system("pkg install -y git")
